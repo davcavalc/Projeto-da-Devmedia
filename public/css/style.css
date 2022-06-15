@@ -6,7 +6,7 @@
     height: 20px;
 }
 
-.secao1 {
+.banner {
     background-image: url(/public/imagens/london.jpg);
 }
 
@@ -14,5 +14,9 @@
     color: white;
     background-color: gray;
     border: none;
+}
+
+h4, label {
+    color: #fff;
 }
 
