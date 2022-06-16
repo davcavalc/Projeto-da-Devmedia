@@ -1,22 +1,23 @@
 
-.container1 {
-    background-color: white;
+.head{
+    background-color: #fff;
     display: flex;
     justify-content: space-between;
-    height: 20px;
+    height: 30px;
+    margin-bottom: 30px;
 }
 
-.banner {
-    background-image: url(/public/imagens/london.jpg);
+.main-banner {
+    display: flex;
 }
 
-.secao1 button {
-    color: white;
-    background-color: gray;
-    border: none;
+.main-banner-content {
+    top: 50px;
+    justify-content: center;
 }
 
-h4, label {
-    color: #fff;
+.icons {
+    flex-direction: column;
 }
+
 
