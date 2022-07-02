@@ -19,5 +19,8 @@
   "homepage": "https://github.com/davcavalc/Projeto-da-Devmedia#readme",
   "devDependencies": {
     "tailwindcss": "^3.1.4"
+  },
+  "dependencies": {
+    "@fortawesome/free-brands-svg-icons": "^6.1.1"
   }
 }

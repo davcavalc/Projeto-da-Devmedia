@@ -1,8 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-	content: [ './src/**/*.{html,js}' ],
+	mode: 'jit',
+	content: [ './src/**/*.{html,js}', '/src/index.html' ],
 	theme: {
-		extend: {}
+		extend: {
+			color: {
+				laranja: '#f44336'
+			}
+		}
 	},
 	plugins: []
 };
